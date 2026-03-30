@@ -1,8 +1,8 @@
-package com.edms.edms_backend.modal;
+package com.edms.edms_backend.model;
 
 
-import com.edms.edms_backend.modal.enums.EmployeeStatus;
-import com.edms.edms_backend.modal.enums.Gender;
+import com.edms.edms_backend.model.enums.EmployeeStatus;
+import com.edms.edms_backend.model.enums.Gender;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

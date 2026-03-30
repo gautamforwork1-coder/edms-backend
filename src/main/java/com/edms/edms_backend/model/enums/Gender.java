@@ -1,4 +1,4 @@
-package com.edms.edms_backend.modal.enums;
+package com.edms.edms_backend.model.enums;
 
 public enum Gender {
     MALE,

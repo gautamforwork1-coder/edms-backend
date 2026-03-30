@@ -1,4 +1,4 @@
-package com.edms.edms_backend.modal;
+package com.edms.edms_backend.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
