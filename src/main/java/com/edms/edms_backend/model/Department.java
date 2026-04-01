@@ -35,8 +35,12 @@ public class Department {
     @Column(name = "location",length = 100)
     private String location;
 
+
     @Column(name = "is_active")
-    private boolean isActive;
+    @Builder.Default
+    private Boolean isActive = true;
+
+
 
     @OneToMany(mappedBy = "department",cascade = CascadeType.ALL, fetch=FetchType.LAZY)
     @Builder.Default
@@ -49,5 +53,6 @@ public class Department {
     @UpdateTimestamp
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
+
 
 }
